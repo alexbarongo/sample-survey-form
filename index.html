@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/fccamp/Survey Form/styles.css ">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Please kindly fill this form. Thank You</p>
+    </header>
+    <hr>
+    <main>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">Enter Your Full Name <input id="name" type="text" placeholder="Full Name" required/><label>
+          <label id="email-label">Enter Your Email <input id="email" type="email" placeholder="example@survey.form" required/></label>
+          <label id="number-label">Enter Your Age <input id="number" type="number" min="25" max="75" placeholder="25-75" required/></label>
+        </fieldset>
+        <hr>
+        <fieldset>
+          <label id="choice"><strong>What type of system do you think is commonly used?</strong>
+            <select id="dropdown">
+              <option>(Select One)</option>
+              <option>Soak-away Pit System</option>
+              <option>Bio-digester System</option>
+              <option>Public Sewage System</option>
+            </select>
+          </label>
+        </fieldset>
+        <hr> 
+        <fieldset>
+          <strong>What type of system is available in your premises?</strong>
+          <label id="usage"><input name="system-used" type="radio" value="system-type"/>Soark-away Pit<label>
+          <label id="usage"><input name="system-used" type="radio" value="system-type"/>Bio-digester<label>
+          <label id="usage"><input name="system-used" type="radio" value="system-type"/>Public Sewage<label>
+        </fieldset>
+        <hr>
+        <fieldset>
+          <label id="checkbox"><input type="checkbox" value="rule" required/>I understand the importance of and acknowledge the policy of <strong>environmental conservation</strong></label>
+          <label id="checkbox"><input type="checkbox" value="rule" required/>I have implemented the guidlines of <strong>environmental conservation</strong></label>
+          <label id="user">What is your opinion on the means of environmental conservation in regard to the sewage systems<textarea rows="4" cols="30" placeholder="What is Your Opinion..."></textarea>
+        </fieldset>
+        <input id="submit" type="submit"/>
+      </form>
+    </main>
+    <hr>
+    <footer>
+      <div class="message">
+        <h3>MESSAGE</h3>
+        We kindly thank you for participating to our short survey, we hope to enlarge the scope of knowledge and awareness to the society about environmental conservation.
+      </div>
+      <label> It has been provided by:
+        <ul>
+          <li><a href="#">Wizara ya Mambo ya Ndani</a></li>
+          <li><a href="#">Mfuko wa Hifadhi za Jamii</a></li>
+          <li><a href="#">UNSSF</a></li>
+        </ul>  
+      </label>
+      <h6>@2022</h6>
+    </footer>
+  </body>
+<html>

@@ -1,0 +1,92 @@
+
+
+body{
+  font-family: Century Gothic;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #1d3d3c3f;
+}
+header{
+  text-align: center;
+  width:80%;
+  margin: 5px auto;
+  padding-top: 10px;
+  color: #007eff
+}
+p{
+  color: #000000;
+  font-weight: bold;
+}
+main{
+  width:80%;
+  margin:0 auto;
+}
+#survey-form{
+  min-width: 300px;
+  max-width: 350px;
+  margin:0 auto;
+}
+fieldset{
+  margin-top: 10px;
+  border: 0;
+}
+#name-label, #email-label, #number-label{
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #007eff;
+}
+#name, #email, #number{
+  width: 300px;
+  height: 2em;
+  border:2px solid #000000;
+  background-color: #b7ceff;
+  color: #505050;
+}
+#dropdown{
+  width: 300px;
+  height: 2em;
+  border:2px solid #000000;
+  background-color: #b7ceff;
+  color: #505050;
+}
+#usage{
+  display: block;
+  color: #404040;
+}
+#checkbox{
+  display: block;
+  padding-top: 5px
+}
+#user{
+  display: block;
+  margin-top: 15px;
+}
+textarea{
+   border:2px solid #000000;
+  background-color: #b7ceff;
+  color: #505050;
+  font-family: Century Gothic;
+}
+#submit{
+  border: 2px solid #000000;
+  background-color: #b7ceff;
+  width:100px;
+  margin: 10px auto;
+  font-family: Century Gothic;
+  font-weight: bold;
+  padding: 5px
+}
+#submit:hover{
+  color: #007eff;
+  cursor: pointer;
+}
+footer{
+  width: 70%;
+  margin: 0 auto;
+}
+h6{
+  text-align: center;
+}
+
